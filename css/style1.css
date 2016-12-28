@@ -1,0 +1,135 @@
+* { margin:0; padding:0; outline:0; }
+.nobdr { border:none !important; }
+.nobg { background:none !important; }
+.nobdr_top { border-top:none !important; }
+.nomargin { margin:0px !important; }
+.nomargin-top { margin-top:0 !important; }
+.nomargin-left { margin-left:0px !important; }
+.nomargin-right { margin-right:0px !important; }
+.nopadding { padding:0px !important; }
+.alignbottom { vertical-align:text-top; }
+img { height: auto; border:0; }
+ul { list-style-type:none; padding:0; margin:0; }
+ul li { list-style:none; padding:0; margin:0; }
+a { text-decoration:none; outline:none; }
+aside, details, figcaption, figure, ins, summary, small, mark, title, video, footer, header, hgroup, nav, section, article { display: block; }
+.clear { padding:0; margin:0; clear:both; }
+h1, h2, h3, h4, h5, h6 { padding:0; margin:0; }
+html, body { height: 100%; width: 100%; padding: 0; margin: 0; }
+.cf:before, .cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf { *zoom: 1;
+}
+body { margin:0px; padding:0px; width:100%; background:#fff; }
+html { margin:0px; padding:0px; }
+.clear{clear: both;}
+
+/*
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url(fonts/opensans-italic-webfont.eot);
+    src: url(fonts/opensans-italic-webfont.eot?#iefix) format("embedded-opentype"), url(fonts/opensans-italic-webfont.woff) format("woff"), url(fonts/opensans-italic-webfont.ttf) format("truetype"), url(fonts/opensans-italic-webfont.svg#open_sansitalic) format("svg");
+    font-weight: 400;
+    font-style: normal
+}*/
+/*@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/opensans-regular-webfont.eot');
+    src: url('fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-regular-webfont.woff') format('woff'),
+         url('fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(fonts/Montserrat-Regular.eot?) format("eot"), url(fonts/Montserrat-Regular.woff) format("woff"), url(fonts/Montserrat-Regular.ttf) format("truetype"), url(fonts/Montserrat-Regular.svg#Montserrat-Regular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}*/
+/*@font-face {
+    font-family: montserratlight;
+    src: url(fonts/montserrat-light-webfont.woff2) format('woff2'), url(fonts/montserrat-light-webfont.woff) format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+@font-face {
+    font-family: montserratsemi_bold;
+    src: url(fonts/montserrat-semibold-webfont.woff2) format('woff2'), url(fonts/montserrat-semibold-webfont.woff) format('woff');
+    font-weight: 400;
+    font-style: normal
+}*/
+.main-container{ float:left; margin:0px; padding:0px;width:100%; max-width:100%; background: #fff;}
+/*.container{ width:1170px; margin:0 auto;}*/
+
+
+/**********---------------------------------------industry page start ----------------------------------------*******/
+
+.slider-menu-header{width:100%; float:left;}
+.slider-sub-menu{  background: #fbfbfd none repeat scroll 0 0;
+    border-left: 15px solid #fff;
+    border-right: 15px solid #fff;
+    box-sizing: border-box;
+    float: left;
+    height: auto;
+    padding: 40px 30px;
+    width: 100%; position:relative;height:235px;}
+.slider-sub-menu:before{position:absolute; display:block; content:""; background:url(../image/e-arrow.png) 0 0 no-repeat; width:42px; height:35px; top:-15px;left:0;}
+.slider-sub-menu:after{position:absolute; display:block; content:"";width:39px; height:41px;right: 0px;bottom: -37px;}
+.slider-sub-menu p{color:#424b59; font:16px/26px "open_sansitalic";}
+.slider-sub-menu span{  bottom: -27px;
+    display: block;
+    position: absolute;
+    right: 77px;font:15px/25px 'open_sansregular'; color:#3e4856;}
+.slider-menu-header-inner{display:block;}
+.slider-menu-header .customNavigation .prev{position:absolute; left:0px; top:0px;padding: 59px 0px;display:block;box-sizing: border-box;width:auto; text-align:center; cursor:pointer;}
+.slider-sub-menu figure{height:44px; margin:0px auto;margin: 40px 0px 10px 0px;}
+.slider-menu-header .customNavigation .next{position:absolute; right:0px; top:0px;padding: 59px 0px;display:block;box-sizing: border-box;width:auto; text-align:center;cursor:pointer;}
+/* #slider-menu-header  .owl-item{width:160px !important;} */
+.slider-menu-header-container{width:96%; margin: 0px auto;}
+.slider-menu-header-container > .owl-theme  > .owl-controls{display: none !important;}
+/*.slider-sub-menu:hover{background:#019ee3; cursor:pointer;  border-right: 1px solid #019ee3;border-left: 1px solid #019ee3;}
+.slider-menu-header .active{background:#019ee3;border-right: 1px solid #019ee3;border-left: 1px solid #019ee3;}*/
+
+.customNavigation {
+    left: 0;
+    position: absolute;
+    top:139px;
+    width: 100%;
+}
+.e-commerce-slider{
+margin: 0;
+    overflow-x: hidden;
+    padding: 47px 0 30px;
+    position: relative;
+    width: 100%; border-top:1px solid #ececee;}
+
+.e-commerce-slider > h2{font:30px/40px montserratlight; color:#344052;margin-top: 0; text-transform:uppercase; text-align:center;margin-bottom:0;}
+.e-commerce-slider > h2 span{font-family: montserratsemi_bold;color:#344052;}
+
+@media screen and (max-width:1260px) {
+.customNavigation {top:187px;}
+.e-commerce-slider > h2{margin-bottom:0;}
+}
+@media screen and (max-width:1100px) {
+.slider-sub-menu p{font:13px/25px "open_sansitalic";}
+}
+@media screen and (max-width:840px) {
+.slider-sub-menu p{line-height:20px;}
+}
+@media screen and (max-width:767px) {
+.customNavigation {top:140px;}
+.e-commerce-slider{padding:20px 0 20px;}
+.e-commerce-slider > h2{font-size:22px; line-height:25px;}
+.slider-sub-menu{height:auto;}
+}
+@media screen and (max-width:480px) {
+.slider-sub-menu{padding:40px 30px 20px 40px;}
+.slider-sub-menu p{font-size:13px; line-height:23px;}
+}
+@media screen and (max-width:360px) {
+.slider-sub-menu{padding:20px 30px 18px 40px;}
+.slider-sub-menu p{line-height:21px;}
+}
