@@ -716,6 +716,8 @@ li
     background-attachment: scroll;
     left: 0px;
     background-position: 50% -40px;
+	min-height: 600px;
+    height: auto;
 }
 .rw-div
 {
@@ -782,7 +784,8 @@ border-top: solid 4px #1eb5ea
 {
     margin-top: -100px
 }
-.mainro{ background: #dddddd;margin-bottom: 2px}
+.mainro{ background: #dddddd;margin-bottom: 2px;min-height: 360px;
+    height: auto;}
 .mainslider
 {
     height: 650px;
@@ -963,7 +966,10 @@ text-align: center;
 }
 .cont-pad
 {
-    padding: 0px
+    padding: 0px;
+    width: 100%;
+    margin: auto 10px 10px 15px;
+
 }
 #top_icon_box_74489.top_icon_box.type1 .icon_holder .icon_bgr { background-color: #b63b6a; }
 #top_icon_box_74489.top_icon_box.type1:hover .icon_holder .icon_bgr { background-color: #fff; }
